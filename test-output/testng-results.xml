@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-19T15:06:33 PDT" name="Default suite" finished-at="2021-05-19T15:06:54 PDT" duration-ms="21523">
+    <groups>
+    </groups>
+    <test started-at="2021-05-19T15:06:33 PDT" name="Default test" finished-at="2021-05-19T15:06:54 PDT" duration-ms="21523">
+      <class name="tests.LoginFirefox">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginFirefox@222114ba]" started-at="2021-05-19T15:06:32 PDT" name="setup" finished-at="2021-05-19T15:06:33 PDT" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:tests.LoginFirefox@222114ba]" started-at="2021-05-19T15:06:33 PDT" name="setupTest" finished-at="2021-05-19T15:06:39 PDT" duration-ms="5999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="loadTimeTest()[pri:0, instance:tests.LoginFirefox@222114ba]" started-at="2021-05-19T15:06:39 PDT" name="loadTimeTest" finished-at="2021-05-19T15:06:49 PDT" duration-ms="10102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadTimeTest -->
+        <test-method signature="lockedOutUser()[pri:0, instance:tests.LoginFirefox@222114ba]" started-at="2021-05-19T15:06:49 PDT" name="lockedOutUser" finished-at="2021-05-19T15:06:50 PDT" duration-ms="695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lockedOutUser -->
+        <test-method signature="loginSuccess()[pri:0, instance:tests.LoginFirefox@222114ba]" started-at="2021-05-19T15:06:50 PDT" name="loginSuccess" finished-at="2021-05-19T15:06:50 PDT" duration-ms="872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccess -->
+        <test-method signature="noCredentials()[pri:0, instance:tests.LoginFirefox@222114ba]" started-at="2021-05-19T15:06:50 PDT" name="noCredentials" finished-at="2021-05-19T15:06:51 PDT" duration-ms="580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noCredentials -->
+        <test-method signature="tabbedNavigation()[pri:0, instance:tests.LoginFirefox@222114ba]" started-at="2021-05-19T15:06:51 PDT" name="tabbedNavigation" finished-at="2021-05-19T15:06:52 PDT" duration-ms="646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tabbedNavigation -->
+        <test-method signature="wrongCredentials()[pri:0, instance:tests.LoginFirefox@222114ba]" started-at="2021-05-19T15:06:52 PDT" name="wrongCredentials" finished-at="2021-05-19T15:06:53 PDT" duration-ms="1055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongCredentials -->
+        <test-method is-config="true" signature="testTearDown()[pri:0, instance:tests.LoginFirefox@222114ba]" started-at="2021-05-19T15:06:53 PDT" name="testTearDown" finished-at="2021-05-19T15:06:54 PDT" duration-ms="1458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginFirefox@222114ba]" started-at="2021-05-19T15:06:54 PDT" name="tearDown" finished-at="2021-05-19T15:06:55 PDT" duration-ms="681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginFirefox -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
