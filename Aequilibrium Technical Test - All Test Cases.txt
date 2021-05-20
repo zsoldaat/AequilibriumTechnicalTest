@@ -1,0 +1,23 @@
+ID, Name, Description, Data, Steps, Expected Result, Automated in Selenium
+
+1 | Login Success | Tests successful login | username = “standard_user”, password = “secret_sauce” | enter username, enter password, click login | user lands on inventory page | YES
+
+2 | Login No Credentials | Tests login with no credentials entered | none |  click login | denied: field empty | YES
+
+3 | Login No User | Tests login with only the correct password entered | password = “secret_sauce” | enter password, click login | denied: field empty | NO
+
+4 | Login No Password | Tests login with an accepted username, but no password | username = “standard_user” | enter username, click login | denied: field empty | NO
+
+5 | Login Wrong User and Password | Tests login with a non-accepted username and password | username=“username”, password = “password” | enter username, enter password, click login | denied: invalid credentials | YES
+
+6 | Login Wrong User | Tests login with a non-accepted user, but an accepted password | username=“username”, password = “secret_sauce” | enter username, enter password, click login | denied: invalid credentials | NO
+
+7 | Login Wrong Password | Tests login with an accepted user, but a non-accepted password | username = “standard_user”, password = “password” | enter username, enter password, click login | denied: invalid credentials | NO
+
+8 | Locked Out User | Tests login for a user that is locked out | username = “locked_out_user”, password = “secret_sauce” | enter username, enter password, click login | denied: locked out | YES
+
+9 | Login Tabbed Navigation | Tests login using tabbed navigation |  username = “standard_user”, password = “secret_sauce” | press tab, enter username, press tab, enter password, press tab, press enter | user lands on inventory page | YES
+
+10 | Load time test | Tests the load time for all accepted users | username = [“standard_user”, “locked_out_user”, “problem_user”, “performance_glitch_user”], password = “secret_sauce” | enter username, enter password, click login | user lands on inventory page in under 2s | YES
+
+11 | SQL Injection | Tests the login against a SQL injection attack | username = “" or “”=“”, password = “" or “”=“” | enter username, enter password, click login | denied: invalid credentials | NO
