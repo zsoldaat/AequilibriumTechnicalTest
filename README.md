@@ -12,19 +12,20 @@ The titles of the fields I'm using for each test case are in the first line of t
 
 # Exercise 2 Installation:
 
-1. Download Eclipse, or any other Java IDE. 
-2. In Eclipse, select File -> Import. 
-3. Select Git -> Projects from Git (with smart import). 
-4. Select Clone URI
-5. in the "URI" field, paste the following: https://github.com/zsoldaat/AequilibriumTechnicalTest.git
-6. Click "Next"
-7. Select a local storage location for the project on your computer. 
-8. Click "Finish". The project should now appear on the left side of project explorer in Eclipse.
-9. Navigate to the "src/test/java" folder -> "tests". 
-10. Right-click on "LoginChrome.java." Click "Run as TestNG test"
-11. Right-click on "LoginFirefox.java." Click "Run as TestNG test"
-12. Right-click on the project, select "Refresh". 
-13. You should see two files: extentReports-Chrome.html and extentReports-Firefox.html. Open those both in your browser to see the results of the automated tests for each of the test cases. 
+1. Download Eclipse, or any other Java IDE.
+2. Create an empty Java project in the project explorer.
+3. In Eclipse, select File -> Import. 
+4. Select Git -> Projects from Git (with smart import). 
+5. Select Clone URI
+6. in the "URI" field, paste the following: https://github.com/zsoldaat/AequilibriumTechnicalTest.git
+7. Click "Next"
+8. Select the empty Java project you created in step 2.
+9. Click "Finish". The project should now appear on the left side of project explorer in Eclipse.
+10. Navigate to the "src/test/java" folder -> "tests". 
+11. Run "LoginChrome.java".
+12. Run "LoginFirefox.java".
+13. Right-click on the project, select "Refresh". 
+14. You should see two files: extentReports-Chrome.html and extentReports-Firefox.html. Open those both in your browser to see the results of the automated tests for each of the test cases. 
 
 # Comments
 
