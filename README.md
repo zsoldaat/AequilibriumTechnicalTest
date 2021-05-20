@@ -8,14 +8,13 @@
 4. Select Clone URI
 5. in the "URI" field, paste the following: https://github.com/zsoldaat/AequilibriumTechnicalTest.git
 6. Click "Next"
-7. Check only the "Master" branch
-8. Select a local storage location for the project on your computer. 
-9. Click "Finish". The project should now appear on the left side of project explorer in Eclipse.
-10. Navigate to the "src/test/java" folder -> "tests". 
-11. Right-click on "LoginChrome.java." Click "Run as TestNG test"
-12. Right-click on "LoginFirefox.java." Click "Run as TestNG test"
-13. Right-click on the project, select "Refresh". 
-14. You should see two files: extentReports-Chrome.html and extentReports-Firefox.html. Open those both in your browser to see the results of the automated tests for each of the test cases. 
+7. Select a local storage location for the project on your computer. 
+8. Click "Finish". The project should now appear on the left side of project explorer in Eclipse.
+9. Navigate to the "src/test/java" folder -> "tests". 
+10. Right-click on "LoginChrome.java." Click "Run as TestNG test"
+11. Right-click on "LoginFirefox.java." Click "Run as TestNG test"
+12. Right-click on the project, select "Refresh". 
+13. You should see two files: extentReports-Chrome.html and extentReports-Firefox.html. Open those both in your browser to see the results of the automated tests for each of the test cases. 
 
 # Comments
 
