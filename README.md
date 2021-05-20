@@ -1,6 +1,14 @@
 # AequilibriumTechnicalTest
 
-# Installation
+# Assumptions
+
+I am assuming that anything beyond the login page is not part of the login feature. Specifically, I did not create any test cases to address the issue experienced by "problem_user", as the problem with their account lies in the content they see once they have already bypassed the login page.
+
+# Exercise 1:
+
+The test cases for the login feature are listed in a document called "Update Aequilibrium Technical Test - All Test Cases.txt". 
+
+# Exercise 2 Installation:
 
 1. Download Eclipse, or any other Java IDE. 
 2. In Eclipse, select File -> Import. 
