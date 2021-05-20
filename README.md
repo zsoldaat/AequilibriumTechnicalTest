@@ -20,7 +20,7 @@ The titles of the fields I'm using for each test case are in the first line of t
 6. in the "URI" field, paste the following: https://github.com/zsoldaat/AequilibriumTechnicalTest.git
 7. Click "Next"
 8. Select the empty Java project you created in step 2.
-9. Click "Finish". The project should now appear on the left side of project explorer in Eclipse.
+9. Click "Finish". The project should now appear on the left side of project explorer in Eclipse in the empty Java project you had created.
 10. Navigate to the "src/test/java" folder -> "tests". 
 11. Run "LoginChrome.java".
 12. Run "LoginFirefox.java".
