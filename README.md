@@ -6,7 +6,9 @@ I am assuming that anything beyond the login page is not part of the login featu
 
 # Exercise 1:
 
-The test cases for the login feature are listed in a document called "Update Aequilibrium Technical Test - All Test Cases.txt". 
+The test cases for the login feature are listed in a document called "Update Aequilibrium Technical Test - All Test Cases.txt".
+
+The titles of the fields I'm using for each test case are in the first line of the document, seperated by a "|". The values for all the test cases are in the following lines. 
 
 # Exercise 2 Installation:
 
