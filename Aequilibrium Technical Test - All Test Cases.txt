@@ -1,4 +1,4 @@
-ID, Name, Description, Data, Steps, Expected Result, Automated in Selenium
+ID | Name | Description | Data | Steps | Expected Result | Automated in Selenium
 
 1 | Login Success | Tests successful login | username = “standard_user”, password = “secret_sauce” | enter username, enter password, click login | user lands on inventory page | YES
 
